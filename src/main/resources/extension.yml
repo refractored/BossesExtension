@@ -1,0 +1,5 @@
+name: Extension
+main: net.refractored.hordes.BossesExtension
+version: 0.1
+author: refractored
+plugin: BloodmoonReloaded

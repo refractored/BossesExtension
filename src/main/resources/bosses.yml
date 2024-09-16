@@ -1,0 +1,30 @@
+#
+# BloodmoonReloaded: Bosses
+# By: refractored
+#
+Worlds:
+  world:
+    # The amount of seconds between the plugin trying to spawn in a mob.
+    AttemptRate: 30
+    # If multiple bosses can be spawned at once.
+    MultipleBosses: false
+    # The chance of no boss spawning (Weighed with Bosses)
+    EmptyWeight: 90
+    # Weight, the higher weight, the more likely to spawn
+    # Mob, the mob to spawn
+    # Format: "Mob,Weight"
+    Bosses:
+      - TheToughOne
+Mobs:
+  TheToughOne:
+    Mob: ZOMBIE name:"&lThe Tough One" health:200 speed:2.0 attack-damage:7
+    # The chance (weight) of the boss being selected.
+    Weight: 10
+    # If the drops extension is added, you can prevent the plugin from dropping items from it.
+    DropsExtensionDropsEnabled: true
+    # If your boss has custom drops by default, you can disable
+    # The extension from dropping items.
+    BossesExtensionDropsEnabled: true
+    # Max amount of drops to drop
+    Drops:
+      - "DIAMOND 1"
